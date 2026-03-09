@@ -1,0 +1,21 @@
+{
+  "name": "किसान रक्षक",
+  "short_name": "KisanRakshak",
+  "description": "किसान रक्षक: एक किसान सहायता और जानकारी मंच।",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a7a3c",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
