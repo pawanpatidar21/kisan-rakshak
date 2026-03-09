@@ -1,9 +1,11 @@
 {
+  "id": "com.kisanrakshak.app",
   "name": "किसान रक्षक",
   "short_name": "KisanRakshak",
   "description": "किसान रक्षक: एक किसान सहायता और जानकारी मंच।",
   "start_url": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#1a7a3c",
   "icons": [
@@ -15,6 +17,18 @@
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/screen1.png",
+      "sizes": "640x480",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/screen2.png",
+      "sizes": "640x480",
       "type": "image/png"
     }
   ]
