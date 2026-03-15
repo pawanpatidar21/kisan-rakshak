@@ -5907,7 +5907,7 @@ const KRAdManager = (() => {
       const style = document.createElement('style');
       style.textContent =
         '.kr-ad, .kr-ad-sticky, .kr-ad-loading::after, ' +
-        '[data-modal-ad], .brand-strip { display: none !important; }';
+        '[data-modal-ad] { display: none !important; }';
       document.head.appendChild(style);
       console.log('[KRAds] SHOW_ADS=false — all ads and brand strips hidden');
       return;
